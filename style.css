@@ -113,34 +113,33 @@ header {
 main {
   display: flex;
   gap: 1.5rem;
-  align-items: center;
 }
 
 .div-mimg {
+  flex: 1;
+  background: url("./img/main.png");
+  background-size: cover;
+  margin-right: 50px;
+  border-radius: 15px;
   position: relative;
 }
 
-.div-mimg .mimg {
-  height: 790px;
+.text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  gap: 30px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .text h1 {
-  position: absolute;
-  right: 14.88rem;
-  top: 3.75rem;
-  font-size: 3rem;
-}
-
-.text p {
-  position: absolute;
-  top: 8.88rem;
-  right: 27.81rem;
+  font-size: 2.5rem;
 }
 
 .text input {
-  position: absolute;
-  top: 12.88rem;
-  right: 28.12rem;
   border: 0.4px solid white;
   border-radius: 0.625rem;
   box-shadow: 0px 4px 10px 0px rgba(124, 124, 124, 0.27);
@@ -228,9 +227,9 @@ label input {
 
 .ads .vipuri {
   position: absolute;
-  border: 1px solid #29B24E;
+  border: 1px solid #29b24e;
   border-radius: 2rem;
-  background: #29B24E;
+  background: #29b24e;
   padding: 5px 10px;
 }
 
@@ -261,7 +260,6 @@ label input {
   color: white;
 }
 
-
 .css-checkbox+label::before {
   content: " ";
   display: inline-block;
@@ -270,7 +268,7 @@ label input {
   width: 16px;
   height: 16px;
   border-radius: 2rem;
-  border: 2px solid #29B24E;
+  border: 2px solid #29b24e;
   border-radius: 2px;
   box-shadow: none;
 }
@@ -288,7 +286,7 @@ label input {
   font-size: 10px;
   height: 16px;
   width: 18px;
-  background-color: #29B24E;
+  background-color: #29b24e;
 }
 
 #eventebi {
@@ -304,7 +302,7 @@ label input {
   align-items: flex-start;
   bottom: 53px;
   transform: translateX(300px);
-  fill: #FFF;
+  fill: #fff;
   filter: drop-shadow(-2px 4px 20px rgba(109, 109, 109, 0.25));
   border-radius: 50%;
 }
@@ -314,14 +312,13 @@ label input {
 }
 
 footer {
-  background-color: #29B24E;
+  background-color: #29b24e;
   width: 100%;
   height: auto;
   margin-top: 120px;
   padding: 35px 35px;
   border-radius: 25px;
-  box-shadow: 0px 4px 25px 0px rgba(194, 194, 194, 0.10);
-
+  box-shadow: 0px 4px 25px 0px rgba(194, 194, 194, 0.1);
 }
 
 footer a {
@@ -336,7 +333,7 @@ footer a {
 .list-container {
   display: flex;
   justify-content: space-around;
-  gap: 130px
+  gap: 130px;
 }
 
 .list-container>p {
