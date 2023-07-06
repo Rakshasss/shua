@@ -147,6 +147,12 @@ main {
   width: 20rem;
 }
 
+#search-icon {
+  position: relative;
+  bottom: 62px;
+  left: 135px;
+}
+
 label input {
   padding-right: 10px;
 }
@@ -295,20 +301,20 @@ label input {
 
 .wre {
   position: absolute;
-}
-
-#eklips {
-  position: relative;
-  align-items: flex-start;
-  bottom: 53px;
-  transform: translateX(300px);
-  fill: #fff;
-  filter: drop-shadow(-2px 4px 20px rgba(109, 109, 109, 0.25));
   border-radius: 50%;
+  background-color: white;
+  filter: drop-shadow(-2px 4px 20px rgba(109, 109, 109, 0.25));
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-30px);
+  margin-left: 19.3rem;
 }
 
-#charcho {
-  transform: translateY(35px);
+.wre img {
+  position: relative;
 }
 
 footer {
