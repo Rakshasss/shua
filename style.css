@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -10,9 +11,11 @@ header {
   align-items: center;
   padding: 30px 10px;
 }
+
 #loguri {
-  transform: translateX(-5rem);
+  transform: translateX(-6.5rem);
 }
+
 .navi ul {
   display: flex;
   flex-direction: row;
@@ -24,6 +27,7 @@ header {
   font-weight: 400;
   line-height: normal;
 }
+
 .navi ul a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
@@ -31,15 +35,19 @@ header {
   font-weight: 400;
   line-height: normal;
 }
+
 #sia {
   transform: translateX(5.5rem);
 }
+
 #gayidva {
   transform: translateX(7.5rem);
 }
+
 #bot {
   border-bottom: 2px solid #29b24e;
 }
+
 #gayidva {
   padding: 13px 26px;
   border-radius: 12px;
@@ -47,6 +55,7 @@ header {
   color: #fff;
   text-decoration: none;
 }
+
 .container {
   max-width: 400px;
   margin-top: 1rem;
@@ -54,7 +63,7 @@ header {
   border: 1px solid #f8f8f8;
   border-radius: 24px;
   box-shadow: 0px 4px 25px 0px;
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
 
 .container-title {
@@ -71,6 +80,7 @@ header {
   font-size: 1.25rem;
   display: block;
 }
+
 .dropdown-name {
   display: flex;
   gap: 13rem;
@@ -95,30 +105,68 @@ header {
 #space {
   margin: 2.4rem 0;
 }
+
 .container input {
-  background-color: #29b24e;
-  accent-color: green;
+  accent-color: #29b24e;
 }
+
 main {
   display: flex;
   gap: 1.5rem;
   align-items: center;
 }
-.mimg img {
-  display: flex;
-  width: 1225px;
-  height: 751px;
-  flex-shrink: 0;
+
+.div-mimg {
+  position: relative;
 }
+
+.div-mimg .mimg {
+  height: 790px;
+}
+
+.text h1 {
+  position: absolute;
+  right: 14.88rem;
+  top: 3.75rem;
+  font-size: 3rem;
+}
+
+.text p {
+  position: absolute;
+  top: 8.88rem;
+  right: 27.81rem;
+}
+
+.text input {
+  position: absolute;
+  top: 12.88rem;
+  right: 28.12rem;
+  border: 0.4px solid white;
+  border-radius: 0.625rem;
+  box-shadow: 0px 4px 10px 0px rgba(124, 124, 124, 0.27);
+  padding: 0.75rem;
+  width: 20rem;
+}
+
+label input {
+  padding-right: 10px;
+}
+
 #Trendi {
   margin-top: 2rem;
   margin-bottom: 1.25rem;
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
+
 .seqcia-1 {
   display: flex;
   justify-content: space-around;
-  margin-left: 9.25rem;
+  margin-left: 7rem;
+}
+
+.seqcia-1 a {
+  text-decoration: none;
+  color: black;
 }
 
 .siebi {
@@ -127,15 +175,17 @@ main {
   gap: 1.5rem;
   flex-wrap: wrap;
 }
-.ads {
-  text-align: center;
-}
-.ads a {
-  text-decoration: none;
+
+.ads p {
+  display: flex;
   color: #000;
-  position: relative;
-  right: 3rem;
 }
+
+#spanfasi {
+  position: relative;
+  bottom: 0.4rem;
+}
+
 .op {
   opacity: 0.5;
   font-size: 14px;
@@ -144,28 +194,180 @@ main {
   bottom: 0.25rem;
   margin-bottom: 1.72rem;
 }
+
 .ads {
   border: 1px solid #f8f8f8;
   border-radius: 24px;
   padding: 1rem 1rem;
   box-shadow: 0px 4px 18px 0px rgba(194, 194, 194, 0.3);
 }
-.ads p {
-  margin-top: 0.75rem;
+
+.ads>p {
+  margin-top: 0.25rem;
 }
+
 .fasi {
   color: #29b24e;
   font-size: larger;
   padding-left: 15rem;
   font-size: 24px;
 }
+
 .xazi {
   border: 1px solid #cfead6;
   border-radius: 2px;
   margin-top: 1.25rem;
 }
+
 .qvtext {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
+  gap: 0.25rem;
+}
+
+.ads .vipuri {
+  position: absolute;
+  border: 1px solid #29B24E;
+  border-radius: 2rem;
+  background: #29B24E;
+  padding: 5px 10px;
+}
+
+.vipuri {
+  transform: translateY(-520%);
+  margin-left: 10px;
+}
+
+.vipuri>p {
+  color: white;
+}
+
+.css-checkbox {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+}
+
+.css-checkbox+label {
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  color: white;
+}
+
+
+.css-checkbox+label::before {
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 2rem;
+  border: 2px solid #29B24E;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.css-checkbox:checked+label::after {
+  content: " ";
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMTczLjg5OCA0MzkuNDA0bC0xNjYuNC0xNjYuNGMtOS45OTctOS45OTctOS45OTctMjYuMjA2IDAtMzYuMjA0bDM2LjIwMy0zNi4yMDRjOS45OTctOS45OTggMjYuMjA3LTkuOTk4IDM2LjIwNCAwTDE5MiAzMTIuNjkgNDMyLjA5NSA3Mi41OTZjOS45OTctOS45OTcgMjYuMjA3LTkuOTk3IDM2LjIwNCAwbDM2LjIwMyAzNi4yMDRjOS45OTcgOS45OTcgOS45OTcgMjYuMjA2IDAgMzYuMjA0bC0yOTQuNCAyOTQuNDAxYy05Ljk5OCA5Ljk5Ny0yNi4yMDcgOS45OTctMzYuMjA0LS4wMDF6Ii8+PC9zdmc+");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  height: 16px;
+  width: 18px;
+  background-color: #29B24E;
+}
+
+#eventebi {
+  font-size: 15.5px;
+}
+
+.wre {
+  position: absolute;
+}
+
+#eklips {
+  position: relative;
+  align-items: flex-start;
+  bottom: 53px;
+  transform: translateX(300px);
+  fill: #FFF;
+  filter: drop-shadow(-2px 4px 20px rgba(109, 109, 109, 0.25));
+  border-radius: 50%;
+}
+
+#charcho {
+  transform: translateY(35px);
+}
+
+footer {
+  background-color: #29B24E;
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+  padding: 35px 35px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 25px 0px rgba(194, 194, 194, 0.10);
+
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 130px
+}
+
+.list-container>p {
+  color: white;
+}
+
+.list1,
+.list2 {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.list1 li,
+.list2 li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.khazi {
+  margin-top: 43px;
+  color: white;
+}
+
+#xazuri {
+  color: white;
+}
+
+.khazi>p {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  color: white;
 }
