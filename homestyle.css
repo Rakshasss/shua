@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+#loguri {
+    transform: translateX(-6.5rem);
+}
+
+.navi ul {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    cursor: pointer;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navi ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sia {
+    transform: translateX(5.5rem);
+}
+
+#gayidva {
+    transform: translateX(7.5rem);
+}
+
+#bot {
+    border-bottom: 2px solid #29b24e;
+}
+
+#gayidva {
+    padding: 13px 26px;
+    border-radius: 12px;
+    background: #29b24e;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    border: 1px solid red;
+    gap: 44px;
+    justify-content: center;
+}
+
+.mtimg {
+    margin-left: 70px;
+
+}
+
+.container {
+    width: 100%;
+    border: 1px solid green;
+    margin-right: 100px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 18px 0px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.info>p {
+    margin-top: 30px;
+}
+
+#vipuri {
+    margin-top: 25px;
+    height: 3%;
+    width: 11%;
+    border-radius: 2rem;
+    background: #29b24e;
+    color: white;
+    padding: 8px 10px;
+}
+
+.desc {
+    margin-left: 60px;
+}
+
+.desc h2 {
+    margin-top: 24px;
+}
+
+.desc>p {
+    margin-top: 12px;
+}
+
+#Lorem {
+    padding-top: 30px;
+    opacity: 0.6000000238418579;
+    text-align: left;
+}
+
+hr {
+    margin-top: 20px;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.apartment {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    margin-left: 60px;
+}
+
+.apartment>p {
+    margin-top: 20px;
+}
+
+.centri {
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.centri>p {
+    color: black;
+}
+
+.pirveli>p {
+    margin-top: 4px;
+}
+
+.meore>p {
+    margin-top: 4px;
+}
+
+.mesame>p {
+    margin-top: 4px;
+}
+
+.space {
+    margin-top: 16px;
+}
+
+.op {
+    opacity: 0.6000000238418579;
+}
+
+.fasi {
+    color: #29b24e;
+    font-size: larger;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    gap: 100px;
+    margin-top: 24px;
+}
+
+.adgili {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+
+.adgili a {
+    text-decoration: none;
+}
+
+.msg {
+    border: 1px solid #29B24E;
+    border-radius: 15px;
+    padding: 13px 26px;
+    color: #29B24E;
+    margin-left: 300px;
+}
+
+.msg a {
+    color: #29b24e;
+}
+
+.zari a {
+    color: white;
+}
+
+.zari {
+    border: 1px solid #29B24E;
+    border-radius: 15px;
+    padding: 13px 26px;
+    background-color: #29B24E;
+    color: white;
+    margin-right: 40px;
+}
