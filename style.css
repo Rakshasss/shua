@@ -113,6 +113,7 @@ header {
 main {
   display: flex;
   gap: 1.5rem;
+
 }
 
 .div-mimg {
@@ -123,6 +124,7 @@ main {
   border-radius: 15px;
   position: relative;
 }
+
 
 .text {
   display: flex;
@@ -166,7 +168,7 @@ label input {
 .seqcia-1 {
   display: flex;
   justify-content: space-around;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .seqcia-1 a {
@@ -177,7 +179,7 @@ label input {
 .siebi {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -206,6 +208,7 @@ label input {
   padding: 1rem 1rem;
   box-shadow: 0px 4px 18px 0px rgba(194, 194, 194, 0.3);
 }
+
 
 .ads>p {
   margin-top: 0.25rem;
@@ -373,4 +376,32 @@ footer a {
   margin-top: 32px;
   justify-content: center;
   color: white;
+}
+
+@media (max-width:375px) {
+  #sia {
+    display: none;
+  }
+
+  #gayidva {
+    display: none;
+  }
+
+  #loguri {
+    margin-left: 200px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .div-mimg {
+    width: 100%;
+  }
+
+  .text>input {
+    display: none;
+  }
+
 }

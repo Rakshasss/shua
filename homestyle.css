@@ -93,11 +93,11 @@ main {
 #vipuri {
     margin-top: 25px;
     height: 3%;
-    width: 11%;
+    /* width: 11%; */
     border-radius: 2rem;
     background: #29b24e;
     color: white;
-    padding: 8px 10px;
+    padding: 8px 19px;
 }
 
 .desc {
@@ -165,14 +165,13 @@ hr {
     margin-top: 16px;
 }
 
-.op {
+.opacity {
     opacity: 0.6000000238418579;
 }
 
-.fasi {
+.tag {
     color: #29b24e;
-    font-size: larger;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .buttons {
@@ -183,7 +182,7 @@ hr {
 
 .adgili {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     gap: 30px;
     margin-top: 24px;
     margin-left: 60px;
@@ -193,12 +192,20 @@ hr {
     text-decoration: none;
 }
 
+.klasika {
+    display: flex;
+    flex-direction: row;
+    /* width: 40%; */
+}
+
 .msg {
     border: 1px solid #29B24E;
     border-radius: 15px;
     padding: 13px 26px;
     color: #29B24E;
     margin-left: 300px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .msg a {
@@ -214,49 +221,21 @@ hr {
     border-radius: 15px;
     padding: 13px 26px;
     background-color: #29B24E;
-    color: white;
     margin-right: 40px;
+    margin-bottom: 20px;
 }
 
 #igive {
-    margin-left: 5.5rem;
+    margin-left: 100px;
 }
 
 .seqcia-1 {
     display: flex;
-    justify-content: space-around;
-    margin-left: 60px;
 }
 
 .seqcia-1 a {
     text-decoration: none;
     color: black;
-}
-
-.siebi {
-    display: flex;
-    list-style: none;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
-
-.ads p {
-    display: flex;
-    color: #000;
-}
-
-#spanfasi {
-    position: relative;
-    bottom: 0.4rem;
-}
-
-.op {
-    opacity: 0.5;
-    font-size: 14px;
-    padding-right: 15.5rem;
-    position: relative;
-    bottom: 0.25rem;
-    margin-bottom: 1.72rem;
 }
 
 .ads {
@@ -266,8 +245,20 @@ hr {
     box-shadow: 0px 4px 18px 0px rgba(194, 194, 194, 0.3);
 }
 
-.ads>p {
+.ads p {
+    display: flex;
+    color: #000;
     margin-top: 0.25rem;
+}
+
+
+.siebi {
+    margin-top: 15px;
+    margin-left: 65px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .fasi {
@@ -277,6 +268,20 @@ hr {
     font-size: 24px;
 }
 
+#spanfasi {
+    position: relative;
+    bottom: 0.4rem;
+}
+
+/* .op {
+    opacity: 0.5;
+    font-size: 14px;
+    padding-right: 15.5rem;
+    position: relative;
+    bottom: 0.25rem;
+    margin-bottom: 1.72rem;
+}
+ */
 .xazi {
     border: 1px solid #cfead6;
     border-radius: 2px;
@@ -295,7 +300,7 @@ hr {
     border: 1px solid #29b24e;
     border-radius: 2rem;
     background: #29b24e;
-    padding: 5px 10px;
+    padding: 4px 10px;
 }
 
 .vipuri {
